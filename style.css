@@ -1,0 +1,57 @@
+body {
+  font-family: "Belanosima", sans-serif;
+  margin: 50px;
+  background-color: rgba(252, 255, 196, 0.849);
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+footer {
+  text-align: center;
+  color: deeppink;
+  float: both;
+}
+.pictures {
+  width: 300px;
+  height: 300px;
+  border-radius: 20%;
+  float: left;
+  margin-right: 50px;
+}
+.card {
+  width: 45%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.lover {
+  color: blueviolet;
+}
+@media (max-width: 680px) {
+  .h1 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .pictures {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
